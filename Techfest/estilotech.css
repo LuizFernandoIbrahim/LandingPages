@@ -1,0 +1,92 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.header-content {
+    background-color: #2959c2;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.header-content h1 {
+    font-size: 2.5rem;
+    color: rgb(237, 232, 252);
+}
+
+.header-content p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.section {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.section-content h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.speaker {
+    margin: 2rem;
+}
+
+.speaker img {
+    max-width: 30%;
+    border-radius: 50%;
+}
+
+.speaker h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.timeline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.event {
+    flex: 1;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+
+.event h3 {
+    font-size: 1.3rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #2959c2;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #ff9933;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
